@@ -1,0 +1,36 @@
+@charset "UTF-8"
+* { /*configuração geral*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { /*corpo do site*/
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#celular{
+    position: absolute;
+    background-image: url(../imagens/frame-iphone.png);
+    width: 311px;
+    height: 627px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe#telefone{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    
+    /*TAMANHO DA TELA FEITA NO IFRAME CRIADO.*/
+    width: 269px;
+    height: 471px;
+}
+
+
+
+
