@@ -48,11 +48,11 @@ section#redes-sociais img {
     margin: 10px;
     border-radius: 50%; /*torna os icones redondos*/
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box; /*borda faz parte da caixa*/
+    box-sizing: border-box; /*borda faz parte de cada caixa individualmente.*/
 }
 
 section#redes-sociais img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.618);
+    border: 2px solid rgba(255, 255, 255, 0.704);
     transform: translate(-3px, -3px); /*faz os icones lanvatar quando passa o mouser.*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
     transition: transform 0.5s; /*tempo de transição do trnsform.*/
