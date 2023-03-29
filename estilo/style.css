@@ -11,6 +11,7 @@ body { /*corpo do site*/
     background-attachment: fixed;
 }
 
+/*CELULAR*/
 section#celular{
     position: absolute;
     background-image: url(../imagens/frame-iphone.png);
